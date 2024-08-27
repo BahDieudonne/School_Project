@@ -1,0 +1,137 @@
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    width: 90%;
+    height: 45px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 2rem 5rem 0rem 5rem;
+}
+.nav-menu{
+    transition: all 0.5s;
+    max-width: 100%;
+    height: auto;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.nav-menu ul li{
+    margin: 1rem 1rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding-left: 10px;
+}
+.nav-menu .class-list .class1{
+    color: white;
+}
+.nav-menu ul span{
+    color: #ffa500;
+    font-size: 20px;
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu ul li a:hover{
+    color: black;
+}
+nav{
+    background: linear-gradient(to right, #ffa600 80%, rgb(0, 0, 0) 20%);   
+}
+*{
+    margin: auto;
+    padding: auto;
+    /* margin-top: 5px; */
+}
+body{
+    background-image: url(IMG_3418.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-left: 100px;
+}
+form{
+    padding: 50px 0 0 100px;
+}
+
+.form{
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px 20px rgb(217, 211, 211);
+    padding: 80px 0px 0px 0px;
+    margin-right: 100px; 
+    width:1000px;
+    margin-top: 100px;
+    /* text-align: center; */
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    position: relative;
+
+}
+#input{
+    height: 38px;
+    width: 280px;
+}
+
+a:hover{
+    color:rgb(0, 0, 0);
+}
+#links{
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 40px;
+}
+.account{
+    width: 280px;
+    font-family: arial;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(223, 191, 10);
+    background-color: #ffa500;
+    text-decoration: none;
+    padding: 9px 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+.log, .signup{
+    color: black;
+}
+.Create{
+    display: flex;
+    text-align: center;
+}
+img{
+    position: absolute;
+    top: 100px;
+    right: 130px;
+}
+.form p{
+    padding-left: 2px;
+}
+.registration{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.registration .cus{
+    margin-top: -18px;
+}

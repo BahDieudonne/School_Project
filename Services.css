@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    opacity: 0.8;
+    height: 500px;
+    height: auto;
+    width: 100%;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.head1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0rem 0rem 0rem 0rem;
+}
+.head1 ul li{
+    margin-top: 10px;
+}
+.head1 ul li a{
+    text-decoration: none;
+    margin: 0.5rem 2.5rem;
+    color: white;
+}
+.head1 ul li a img{
+    width: 20px;
+    height: 20px;
+}
+.head1 ul li a img:hover{
+    transform: translate(10px);
+    transition: 0.9s all linear;
+    background-color: white;
+}
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    width: 90%;
+    height: 45px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 2rem 5rem 0rem 5rem;
+}
+.nav-menu{
+    transition: all 0.5s;
+    max-width: 100%;
+    height: auto;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.nav-menu ul li{
+    margin: 1rem 1rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding-left: 10px;
+}
+.nav-menu .class-list .class1{
+    color: white;
+}
+.nav-menu ul span{
+    color: #ffa500;
+    font-size: 20px;
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu ul li a:hover{
+    color: black;
+}
+nav{
+    background: linear-gradient(to right, #ffa600 80%, rgb(0, 0, 0) 20%);   
+}
+.callus{
+    background-image: url(./Service/IMG_3418.JPG);
+    height: 1400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.calls{
+    background-color: #ffa500;
+    height: 1400px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.call{
+    padding-top: 50px;
+}
+.explore{
+    text-align: center;
+}
+.ser{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.ex{
+    margin-top: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad1, .ad2, .ad3, .ad4, .ad5, .ad6, .ad7, .ad8{
+    transition: transform 0.8s;
+    cursor: pointer;
+    width: 400px;
+    border: 2px solid rgb(96, 98, 100);
+    box-shadow: 0 0 10px 0;
+    border-radius: 20px;
+    margin: 50px 0 50px 26px;
+    height: 130px;
+    background-color: #ffffff;
+    padding: 38px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-family: sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.ad2{
+    position: absolute;
+    left: 50%;
+    bottom: 72%;
+}
+.ad4{
+    position: absolute;
+    left: 50%;
+    bottom: 48%;
+}
+.ad8{
+    position: absolute;
+    left: 50%;
+    bottom: 24%;
+}
+.ad7{
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+}
+h3{
+    color: #ffa500;
+}
+.ad1:hover,.ad2:hover,.ad3:hover,.ad4:hover,.ad5:hover,.ad6:hover,.ad7:hover,.ad8:hover{
+    transform: translateY(-15px);
+}
+.vices{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 90px;
+    position: relative;
+    width: 87%;
+    margin-left: 90px;
+}
+.serve{
+    height: 170px;
+    background-color: black;
+}
+.we{
+    color: white;
+    padding-top: 70px;
+}
+.number{
+    color: #ffa500;
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+h1, .number{
+    
+    text-align: center;
+    font-family: sans-serif;
+}
+.book{
+    height: 200px;
+    background-color: #fff;
+}
+.need{
+    padding-top: 70px;
+}
+button{
+    white-space: nowrap;
+    padding: 10px;
+    width: 110px;
+    border: 2px solid #000;
+    
+    background-color:#ffa500;
+    transition: transform 0.8s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+button:hover, button:active{
+    color: black;
+    background-color: white;
+    transform: translateY(-10px);
+}

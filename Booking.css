@@ -1,0 +1,126 @@
+nav{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    width: 90%;
+    height: 45px;
+    border-radius: 50px 50px 50px 50px;
+    margin: 2rem 5rem 0rem 5rem;
+}
+.nav-menu{
+    transition: all 0.5s;
+    max-width: 100%;
+    height: auto;
+}
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.nav-menu ul li{
+    margin: 1rem 1rem;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding-left: 10px;
+}
+.nav-menu .class-list .class1{
+    color: white;
+}
+.nav-menu ul span{
+    color: #ffa500;
+    font-size: 20px;
+    padding-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu ul li a:hover{
+    color: black;
+}
+nav{
+    background: linear-gradient(to right, #ffa600 80%, rgb(0, 0, 0) 20%);   
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-image: url(./images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Section1{
+    display: flex;
+    text-align: center;
+}
+.Section1 h2{
+    font-size: 80px;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Section1 p{
+    margin-top: -60px;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.Section2{
+    height: 300px;
+    background-color: black;
+}
+.Section2 div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    gap: 10px;
+    margin-top: 70px;
+}
+.Section2 input{
+    border-radius: 15px;
+    padding: 7px;
+}
+.Section2-Info{
+    color: white;
+}
+.Section2-Info h2{
+    font-size: 40px;
+    margin-top: -30px;
+    font-family: "Poppins", sans-serif;
+}
+.Section2-Info p{
+    margin-top: -20px;
+    font-family: sans-serif;
+}
+.Section2 .First{
+    padding-right: 30px;
+}
+.Section2 .Second{
+    padding-left: 30px;
+}
+.Section2 button{
+    border-radius: 15px;
+    background-color: yellow;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+button:hover{
+    background-color: white;
+}
